@@ -1,0 +1,140 @@
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.hotelgift.com/#website",
+    "url": "https://www.hotelgift.com/",
+    "name": "Hotelgift",
+    "inLanguage": "nl-NL",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.hotelgift.com/nl/search?q={search_term}",
+      "query-input": "required name=search_term"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.hotelgift.com/#organization",
+    "name": "Hotelgift",
+    "url": "https://www.hotelgift.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.hotelgift.com/assets/brand/hotelgift-logo.png"
+    },
+    "inLanguage": "nl-NL",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "bestRating": "5",
+      "ratingCount": 9064
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.hotelgift.com/nl/#webpage",
+    "url": "https://www.hotelgift.com/nl/",
+    "name": "Hotelgift – Dé hotelcadeaukaart",
+    "isPartOf": { "@id": "https://www.hotelgift.com/#website" },
+    "about": { "@id": "https://www.hotelgift.com/#organization" },
+    "inLanguage": "nl-NL",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://www.hotelgift.com/assets/og/hotelgift-hero.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "https://www.hotelgift.com/assets/og/hotelgift-1.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://www.hotelgift.com/assets/og/hotelgift-2.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://www.hotelgift.com/assets/og/hotelgift-3.jpg",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://www.hotelgift.com/nl/#faq",
+    "inLanguage": "nl-NL",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Welke hotels zijn aangesloten bij Hotelgift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Met Hotelgift boek je bij honderdduizenden accommodaties wereldwijd: van grote hotelketens tot boutiquehotels en B&B’s."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waar kan ik Hotelgift besteden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wereldwijd bij een zeer groot aanbod aan hotels. Er is altijd een passende bestemming, van een weekendje weg in Nederland tot een verre reis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe werkt Hotelgift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Boeken doe je online via hotelgift.com. Kies je hotel en data, vul je gegevens in en reken af met je Hotelgift-cadeaukaart. Betalen met de cadeaukaart bij het hotel zelf is niet mogelijk."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang is Hotelgift geldig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hotelgift is 2 jaar geldig na uitgifte."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe controleer ik het saldo van mijn Hotelgift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Je controleert het saldo eenvoudig via de saldocheck op de website van Hotelgift."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe verzilver ik mijn Hotelgift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ga naar hotelgift.com/nl, zoek je hotel en kamertype, vul je gegevens in en kies bij de betaling ‘Cadeaubon inwisselen’. Vul je kaartnummer en pincode in. Een eventueel restant kun je met een andere betaalmethode betalen."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://www.hotelgift.com/nl/#breadcrumbs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.hotelgift.com/nl/"
+      }
+    ]
+  }
+]
+</script>
