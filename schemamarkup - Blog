@@ -1,1 +1,56 @@
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{canonical_url}}#blogposting",
+  "url": "{{canonical_url}}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{canonical_url}}"
+  }{{#if language}},
+  "inLanguage": "{{language}}"{{/if}}{{#if blog_name}},
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "{{blog_name}}",
+    "url": "{{blog_url}}"
+  }{{/if}}{{#if headline}},
+  "headline": "{{headline}}"{{/if}}{{#if description}},
+  "description": "{{description}}"{{/if}}{{#if article_section}},
+  "articleSection": "{{article_section}}"{{/if}}{{#if keywords}},
+  "keywords": {{keywords}}{{/if}},
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "{{featured_image.url}}"{{#if featured_image.width}},
+      "width": {{featured_image.width}}{{/if}}{{#if featured_image.height}},
+      "height": {{featured_image.height}}{{/if}}
+    }
+  ]{{#if author}},
+  "author": {
+    "@type": "{{author.type}}",
+    "name": "{{author.name}}"{{#if author.url}},
+    "url": "{{author.url}}"{{/if}}{{#if author.sameAs}},
+    "sameAs": {{author.sameAs}}{{/if}}
+  }{{/if}},
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{publisher.name}}",
+    "url": "{{publisher.url}}"{{#if publisher.logo}},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{publisher.logo.url}}"{{#if publisher.logo.width}},
+      "width": {{publisher.logo.width}}{{/if}}{{#if publisher.logo.height}},
+      "height": {{publisher.logo.height}}{{/if}}
+    }{{/if}}{{#unless publisher.logo}}{{#if is_flightgift}},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.flightgift.com/media/images/icons/brand/flight_logo_exp_dark.svg"
+    }{{/if}}{{/unless}}
+  }{{#if date_published}},
+  "datePublished": "{{date_published}}"{{/if}}{{#if date_modified}},
+  "dateModified": "{{date_modified}}"{{/if}}{{#if word_count}},
+  "wordCount": {{word_count}}{{/if}}{{#if time_required}},
+  "timeRequired": "{{time_required}}"{{/if}},
+  "isAccessibleForFree": {{#if is_free}}{{is_free}}{{else}}true{{/if}}
+}
+</script>
